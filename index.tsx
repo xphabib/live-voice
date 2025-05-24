@@ -64,8 +64,8 @@ export class GdmLiveAudio extends LitElement {
         color: white;
         border-radius: 12px;
         background: rgba(255, 255, 255, 0.1);
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         cursor: pointer;
         font-size: 24px;
         padding: 0;
@@ -286,7 +286,7 @@ export class GdmLiveAudio extends LitElement {
               id="startButton"
               @click=${this.startRecording}
               ?disabled=${this.isRecording}>
-            <svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            <svg width="180px" height="180px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                  stroke="#00ff4c">
               <g id="SVGRepo_bgCarrier" stroke-width="0"/>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
@@ -301,7 +301,7 @@ export class GdmLiveAudio extends LitElement {
               id="stopButton"
               @click=${this.stopRecording}
               ?disabled=${!this.isRecording}>
-            <svg fill="#ff0000" height="95px" width="95px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            <svg fill="#ff0000" height="180px" width="180px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-33.08 -33.08 538.78 538.78" xml:space="preserve"
                  stroke="#ff0000" stroke-width="5.1988199999999996" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
               <g id="SVGRepo_bgCarrier" stroke-width="0"/>
