@@ -43,7 +43,7 @@ export class GdmLiveAudio extends LitElement {
     .display {
       z-index: 10;
       position: absolute;
-      margin: -40px 0 0 -105px;
+      margin: -40px 0 0 -120px;
     }
     
     .controls {
@@ -263,7 +263,7 @@ export class GdmLiveAudio extends LitElement {
       <div>
         <div class="display">
           <h1>Develop by Habib</h1>
-          <a href="https://xphabib.com" target="_blank" style="text-decoration: none; color: #b3b3b3; margin: 0 0 0 45px">https://xphabib.com</a>
+          <a href="https://xphabib.com" target="_blank" style="text-decoration: none; color: #b3b3b3; margin: 0 0 0 60px">https://xphabib.com</a>
         </div>
         <div class="controls">
             <!--
